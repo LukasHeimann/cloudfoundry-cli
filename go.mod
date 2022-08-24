@@ -1,4 +1,4 @@
-module github.com/LukasHeimann/cloudfoundry-cli/v8
+module github.com/LukasHeimann/cloudfoundry_cli/v8
 
 go 1.18
 
