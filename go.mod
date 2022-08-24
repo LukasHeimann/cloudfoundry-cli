@@ -1,4 +1,4 @@
-module code.cloudfoundry.org/cli
+module github.com/LukasHeimann/cloudfoundry-cli/v8
 
 go 1.18
 
