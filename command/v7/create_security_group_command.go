@@ -3,9 +3,9 @@ package v7
 import (
 	"encoding/json"
 
-	"code.cloudfoundry.org/cli/actor/actionerror"
-	"code.cloudfoundry.org/cli/api/cloudcontroller/ccerror"
-	"code.cloudfoundry.org/cli/command/flag"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/actor/actionerror"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/api/cloudcontroller/ccerror"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/command/flag"
 )
 
 type CreateSecurityGroupCommand struct {

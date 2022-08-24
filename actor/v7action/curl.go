@@ -8,7 +8,7 @@ import (
 	"net/textproto"
 	"strings"
 
-	"code.cloudfoundry.org/cli/command/translatableerror"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/command/translatableerror"
 )
 
 func (actor Actor) MakeCurlRequest(

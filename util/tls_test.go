@@ -5,7 +5,7 @@ import (
 	"crypto/x509"
 	"encoding/pem"
 
-	. "code.cloudfoundry.org/cli/util"
+	. "github.com/LukasHeimann/cloudfoundrycli/v8/util"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 )

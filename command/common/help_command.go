@@ -5,12 +5,12 @@ import (
 	"math"
 	"strings"
 
-	"code.cloudfoundry.org/cli/actor/actionerror"
-	"code.cloudfoundry.org/cli/actor/sharedaction"
-	"code.cloudfoundry.org/cli/command"
-	"code.cloudfoundry.org/cli/command/common/internal"
-	"code.cloudfoundry.org/cli/command/flag"
-	"code.cloudfoundry.org/cli/util/configv3"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/actor/actionerror"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/actor/sharedaction"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/command"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/command/common/internal"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/command/flag"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/util/configv3"
 )
 
 //go:generate go run github.com/maxbrunsfeld/counterfeiter/v6 . HelpActor

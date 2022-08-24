@@ -11,11 +11,11 @@ import (
 	"strings"
 	"time"
 
-	"code.cloudfoundry.org/cli/actor/v7action/v7actionfakes"
-	"code.cloudfoundry.org/cli/api/cloudcontroller"
-	"code.cloudfoundry.org/cli/api/cloudcontroller/ccv3/ccv3fakes"
-	"code.cloudfoundry.org/cli/api/cloudcontroller/wrapper"
-	"code.cloudfoundry.org/cli/command/commandfakes"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/actor/v7action/v7actionfakes"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/api/cloudcontroller"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/api/cloudcontroller/ccv3/ccv3fakes"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/api/cloudcontroller/wrapper"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/command/commandfakes"
 
 	"github.com/SermoDigital/jose/crypto"
 	"github.com/SermoDigital/jose/jws"

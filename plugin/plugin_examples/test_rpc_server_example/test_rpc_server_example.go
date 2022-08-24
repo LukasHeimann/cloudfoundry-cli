@@ -9,8 +9,8 @@ import (
 	"fmt"
 	"os"
 
-	"code.cloudfoundry.org/cli/cf/flags"
-	"code.cloudfoundry.org/cli/plugin"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/cf/flags"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/plugin"
 )
 
 type DemoCmd struct{}

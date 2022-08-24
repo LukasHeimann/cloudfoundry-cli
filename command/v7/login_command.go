@@ -6,19 +6,19 @@ import (
 	"net/url"
 	"strings"
 
-	"code.cloudfoundry.org/cli/api/uaa"
-	"code.cloudfoundry.org/cli/resources"
-	"code.cloudfoundry.org/cli/util/ui"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/api/uaa"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/resources"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/util/ui"
 	"code.cloudfoundry.org/clock"
 
-	"code.cloudfoundry.org/cli/actor/actionerror"
-	"code.cloudfoundry.org/cli/actor/v7action"
-	"code.cloudfoundry.org/cli/api/uaa/constant"
-	"code.cloudfoundry.org/cli/cf/configuration/coreconfig"
-	"code.cloudfoundry.org/cli/cf/errors"
-	"code.cloudfoundry.org/cli/command"
-	"code.cloudfoundry.org/cli/command/translatableerror"
-	"code.cloudfoundry.org/cli/command/v7/shared"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/actor/actionerror"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/actor/v7action"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/api/uaa/constant"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/cf/configuration/coreconfig"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/cf/errors"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/command"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/command/translatableerror"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/command/v7/shared"
 )
 
 //go:generate go run github.com/maxbrunsfeld/counterfeiter/v6 . ActorReloader

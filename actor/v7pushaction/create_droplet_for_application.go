@@ -1,9 +1,9 @@
 package v7pushaction
 
 import (
-	"code.cloudfoundry.org/cli/actor/actionerror"
-	"code.cloudfoundry.org/cli/actor/v7action"
-	"code.cloudfoundry.org/cli/api/cloudcontroller/ccerror"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/actor/actionerror"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/actor/v7action"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/api/cloudcontroller/ccerror"
 )
 
 const UploadRetries = 3

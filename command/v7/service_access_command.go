@@ -3,10 +3,10 @@ package v7
 import (
 	"strings"
 
-	"code.cloudfoundry.org/cli/util/ui"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/util/ui"
 
-	"code.cloudfoundry.org/cli/actor/v7action"
-	"code.cloudfoundry.org/cli/command"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/actor/v7action"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/command"
 )
 
 type ServiceAccessCommand struct {

@@ -4,7 +4,7 @@ import (
 	"io"
 	"time"
 
-	"code.cloudfoundry.org/cli/util/ui"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/util/ui"
 )
 
 // UI is the interface to STDOUT, STDERR, and STDIN.

@@ -5,10 +5,10 @@ import (
 
 	"errors"
 
-	"code.cloudfoundry.org/cli/cf"
-	"code.cloudfoundry.org/cli/cf/configuration/coreconfig"
-	. "code.cloudfoundry.org/cli/cf/i18n"
-	"code.cloudfoundry.org/cli/cf/terminal"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/cf"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/cf/configuration/coreconfig"
+	. "github.com/LukasHeimann/cloudfoundrycli/v8/cf/i18n"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/cf/terminal"
 )
 
 type APIEndpointRequirement struct {

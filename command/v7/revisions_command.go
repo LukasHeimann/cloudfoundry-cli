@@ -4,11 +4,11 @@ import (
 	"fmt"
 	"strconv"
 
-	"code.cloudfoundry.org/cli/actor/v7action"
-	"code.cloudfoundry.org/cli/command"
-	"code.cloudfoundry.org/cli/command/flag"
-	"code.cloudfoundry.org/cli/resources"
-	"code.cloudfoundry.org/cli/util/ui"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/actor/v7action"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/command"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/command/flag"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/resources"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/util/ui"
 )
 
 //go:generate go run github.com/maxbrunsfeld/counterfeiter/v6 . RevisionsActor

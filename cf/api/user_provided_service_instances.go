@@ -5,9 +5,9 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"code.cloudfoundry.org/cli/cf/configuration/coreconfig"
-	"code.cloudfoundry.org/cli/cf/models"
-	"code.cloudfoundry.org/cli/cf/net"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/cf/configuration/coreconfig"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/cf/models"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/cf/net"
 )
 
 //go:generate go run github.com/maxbrunsfeld/counterfeiter/v6 . UserProvidedServiceInstanceRepository

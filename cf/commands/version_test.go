@@ -1,13 +1,13 @@
 package commands_test
 
 import (
-	"code.cloudfoundry.org/cli/cf/commandregistry"
-	"code.cloudfoundry.org/cli/cf/commands"
-	"code.cloudfoundry.org/cli/cf/flags"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/cf/commandregistry"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/cf/commands"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/cf/flags"
 
-	testterm "code.cloudfoundry.org/cli/cf/util/testhelpers/terminal"
+	testterm "github.com/LukasHeimann/cloudfoundrycli/v8/cf/util/testhelpers/terminal"
 
-	"code.cloudfoundry.org/cli/cf"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/cf"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 )

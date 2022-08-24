@@ -6,7 +6,7 @@ import (
 	"sync"
 	"time"
 
-	"code.cloudfoundry.org/cli/actor/sharedaction"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/actor/sharedaction"
 	client "code.cloudfoundry.org/go-log-cache"
 	"code.cloudfoundry.org/go-loggregator/v8/rpc/loggregator_v2"
 )

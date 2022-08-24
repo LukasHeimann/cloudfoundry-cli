@@ -3,7 +3,7 @@ package actionerror
 import (
 	"fmt"
 
-	"code.cloudfoundry.org/cli/resources"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/resources"
 )
 
 type ServiceInstanceTypeError struct {

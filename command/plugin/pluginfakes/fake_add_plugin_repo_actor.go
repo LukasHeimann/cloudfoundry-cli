@@ -4,7 +4,7 @@ package pluginfakes
 import (
 	"sync"
 
-	"code.cloudfoundry.org/cli/command/plugin"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/command/plugin"
 )
 
 type FakeAddPluginRepoActor struct {

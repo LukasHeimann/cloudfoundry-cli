@@ -1,10 +1,10 @@
 package v7_test
 
 import (
-	"code.cloudfoundry.org/cli/command/flag"
-	v7 "code.cloudfoundry.org/cli/command/v7"
-	"code.cloudfoundry.org/cli/command/v7/v7fakes"
-	"code.cloudfoundry.org/cli/types"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/command/flag"
+	v7 "github.com/LukasHeimann/cloudfoundrycli/v8/command/v7"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/command/v7/v7fakes"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/types"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 )

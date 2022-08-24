@@ -4,9 +4,9 @@ package apifakes
 import (
 	"sync"
 
-	"code.cloudfoundry.org/cli/cf/api"
-	"code.cloudfoundry.org/cli/cf/api/resources"
-	"code.cloudfoundry.org/cli/cf/models"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/cf/api"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/cf/api/resources"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/cf/models"
 )
 
 type FakeServiceRepository struct {

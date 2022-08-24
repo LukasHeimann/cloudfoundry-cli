@@ -1,6 +1,6 @@
 package main
 
-import "code.cloudfoundry.org/cli/plugin"
+import "github.com/LukasHeimann/cloudfoundrycli/v8/plugin"
 
 type TestPluginWithPanic struct {
 }

@@ -1,8 +1,8 @@
 package v7
 
 import (
-	"code.cloudfoundry.org/cli/command/flag"
-	"code.cloudfoundry.org/cli/command/translatableerror"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/command/flag"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/command/translatableerror"
 )
 
 type UnsetOrgRoleCommand struct {

@@ -8,8 +8,8 @@ import (
 	"path/filepath"
 	"strings"
 
-	"code.cloudfoundry.org/cli/types"
-	. "code.cloudfoundry.org/cli/util/manifest"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/types"
+	. "github.com/LukasHeimann/cloudfoundrycli/v8/util/manifest"
 	"github.com/cloudfoundry/bosh-cli/director/template"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/ginkgo/extensions/table"

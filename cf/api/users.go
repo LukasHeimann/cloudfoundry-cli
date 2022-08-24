@@ -9,12 +9,12 @@ import (
 	neturl "net/url"
 	"strings"
 
-	"code.cloudfoundry.org/cli/cf/api/resources"
-	"code.cloudfoundry.org/cli/cf/configuration/coreconfig"
-	"code.cloudfoundry.org/cli/cf/errors"
-	. "code.cloudfoundry.org/cli/cf/i18n"
-	"code.cloudfoundry.org/cli/cf/models"
-	"code.cloudfoundry.org/cli/cf/net"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/cf/api/resources"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/cf/configuration/coreconfig"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/cf/errors"
+	. "github.com/LukasHeimann/cloudfoundrycli/v8/cf/i18n"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/cf/models"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/cf/net"
 )
 
 var orgRoleToPathMap = map[models.Role]string{

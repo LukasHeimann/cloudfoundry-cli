@@ -5,10 +5,10 @@ import (
 	"strconv"
 	"time"
 
-	"code.cloudfoundry.org/cli/cf/configuration/coreconfig"
-	"code.cloudfoundry.org/cli/cf/errors"
-	"code.cloudfoundry.org/cli/cf/terminal"
-	"code.cloudfoundry.org/cli/cf/trace"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/cf/configuration/coreconfig"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/cf/errors"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/cf/terminal"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/cf/trace"
 )
 
 type ccErrorResponse struct {

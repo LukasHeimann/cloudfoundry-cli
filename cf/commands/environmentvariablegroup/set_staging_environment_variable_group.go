@@ -4,14 +4,14 @@ import (
 	"errors"
 	"fmt"
 
-	"code.cloudfoundry.org/cli/cf/api/environmentvariablegroups"
-	"code.cloudfoundry.org/cli/cf/commandregistry"
-	"code.cloudfoundry.org/cli/cf/configuration/coreconfig"
-	cf_errors "code.cloudfoundry.org/cli/cf/errors"
-	"code.cloudfoundry.org/cli/cf/flags"
-	. "code.cloudfoundry.org/cli/cf/i18n"
-	"code.cloudfoundry.org/cli/cf/requirements"
-	"code.cloudfoundry.org/cli/cf/terminal"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/cf/api/environmentvariablegroups"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/cf/commandregistry"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/cf/configuration/coreconfig"
+	cf_errors "github.com/LukasHeimann/cloudfoundrycli/v8/cf/errors"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/cf/flags"
+	. "github.com/LukasHeimann/cloudfoundrycli/v8/cf/i18n"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/cf/requirements"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/cf/terminal"
 )
 
 type SetStagingEnvironmentVariableGroup struct {

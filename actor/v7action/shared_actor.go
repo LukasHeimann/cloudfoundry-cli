@@ -1,6 +1,6 @@
 package v7action
 
-import "code.cloudfoundry.org/cli/actor/sharedaction"
+import "github.com/LukasHeimann/cloudfoundrycli/v8/actor/sharedaction"
 
 //go:generate go run github.com/maxbrunsfeld/counterfeiter/v6 . SharedActor
 

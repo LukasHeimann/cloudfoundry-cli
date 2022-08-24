@@ -1,8 +1,8 @@
 package v7pushaction_test
 
 import (
-	. "code.cloudfoundry.org/cli/actor/v7pushaction"
-	"code.cloudfoundry.org/cli/cf/util/testhelpers/matchers"
+	. "github.com/LukasHeimann/cloudfoundrycli/v8/actor/v7pushaction"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/cf/util/testhelpers/matchers"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 )

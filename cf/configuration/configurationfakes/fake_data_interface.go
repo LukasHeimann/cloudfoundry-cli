@@ -4,7 +4,7 @@ package configurationfakes
 import (
 	"sync"
 
-	"code.cloudfoundry.org/cli/cf/configuration"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/cf/configuration"
 )
 
 type FakeDataInterface struct {

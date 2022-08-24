@@ -4,7 +4,7 @@ import (
 	"testing"
 	"time"
 
-	"code.cloudfoundry.org/cli/integration/helpers"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/integration/helpers"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 	. "github.com/onsi/gomega/gbytes"
@@ -44,13 +44,13 @@ var _ = SynchronizedBeforeSuite(func() []byte {
 	helpers.TurnOffColors()
 
 	var err error
-	testPluginPath, err = Build("code.cloudfoundry.org/cli/integration/assets/test_plugin")
+	testPluginPath, err = Build("github.com/LukasHeimann/cloudfoundrycli/v8/integration/assets/test_plugin")
 	Expect(err).ToNot(HaveOccurred())
 
-	overrideTestPluginPath, err = Build("code.cloudfoundry.org/cli/integration/assets/test_plugin_with_command_overrides")
+	overrideTestPluginPath, err = Build("github.com/LukasHeimann/cloudfoundrycli/v8/integration/assets/test_plugin_with_command_overrides")
 	Expect(err).ToNot(HaveOccurred())
 
-	panicTestPluginPath, err = Build("code.cloudfoundry.org/cli/integration/assets/test_plugin_with_panic")
+	panicTestPluginPath, err = Build("github.com/LukasHeimann/cloudfoundrycli/v8/integration/assets/test_plugin_with_panic")
 	Expect(err).ToNot(HaveOccurred())
 })
 

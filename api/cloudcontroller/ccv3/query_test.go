@@ -3,7 +3,7 @@ package ccv3_test
 import (
 	"net/url"
 
-	. "code.cloudfoundry.org/cli/api/cloudcontroller/ccv3"
+	. "github.com/LukasHeimann/cloudfoundrycli/v8/api/cloudcontroller/ccv3"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 )

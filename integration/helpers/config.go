@@ -6,7 +6,7 @@ import (
 	"os"
 	"path/filepath"
 
-	"code.cloudfoundry.org/cli/util/configv3"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/util/configv3"
 
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"

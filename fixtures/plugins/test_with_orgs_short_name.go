@@ -10,7 +10,7 @@ package main
 import (
 	"fmt"
 
-	"code.cloudfoundry.org/cli/plugin"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/plugin"
 )
 
 type TestWithOrgsShortName struct {

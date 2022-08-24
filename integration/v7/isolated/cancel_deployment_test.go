@@ -3,9 +3,9 @@ package isolated
 import (
 	"fmt"
 
-	"code.cloudfoundry.org/cli/integration/helpers"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/integration/helpers"
 
-	. "code.cloudfoundry.org/cli/cf/util/testhelpers/matchers"
+	. "github.com/LukasHeimann/cloudfoundrycli/v8/cf/util/testhelpers/matchers"
 
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"

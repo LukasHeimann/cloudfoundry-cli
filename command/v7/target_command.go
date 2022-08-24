@@ -3,8 +3,8 @@ package v7
 import (
 	"fmt"
 
-	"code.cloudfoundry.org/cli/command/translatableerror"
-	"code.cloudfoundry.org/cli/util/configv3"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/command/translatableerror"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/util/configv3"
 )
 
 type TargetCommand struct {

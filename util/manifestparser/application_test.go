@@ -1,7 +1,7 @@
 package manifestparser_test
 
 import (
-	. "code.cloudfoundry.org/cli/util/manifestparser"
+	. "github.com/LukasHeimann/cloudfoundrycli/v8/util/manifestparser"
 	"gopkg.in/yaml.v2"
 
 	. "github.com/onsi/ginkgo"

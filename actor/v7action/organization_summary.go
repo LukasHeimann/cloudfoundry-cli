@@ -3,7 +3,7 @@ package v7action
 import (
 	"sort"
 
-	"code.cloudfoundry.org/cli/resources"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/resources"
 )
 
 type OrganizationSummary struct {

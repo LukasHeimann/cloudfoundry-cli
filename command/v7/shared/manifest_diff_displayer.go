@@ -6,8 +6,8 @@ import (
 	"strconv"
 	"strings"
 
-	"code.cloudfoundry.org/cli/command"
-	"code.cloudfoundry.org/cli/resources"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/command"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/resources"
 	"github.com/pkg/errors"
 	"gopkg.in/yaml.v2"
 )

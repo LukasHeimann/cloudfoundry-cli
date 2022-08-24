@@ -1,9 +1,9 @@
 package v7pushaction_test
 
 import (
-	. "code.cloudfoundry.org/cli/actor/v7pushaction"
-	"code.cloudfoundry.org/cli/command/translatableerror"
-	"code.cloudfoundry.org/cli/util/manifestparser"
+	. "github.com/LukasHeimann/cloudfoundrycli/v8/actor/v7pushaction"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/command/translatableerror"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/util/manifestparser"
 
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"

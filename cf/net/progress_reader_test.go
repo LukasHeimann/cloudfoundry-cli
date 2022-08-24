@@ -7,8 +7,8 @@ import (
 	"os"
 	"time"
 
-	. "code.cloudfoundry.org/cli/cf/net"
-	"code.cloudfoundry.org/cli/cf/terminal/terminalfakes"
+	. "github.com/LukasHeimann/cloudfoundrycli/v8/cf/net"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/cf/terminal/terminalfakes"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 )

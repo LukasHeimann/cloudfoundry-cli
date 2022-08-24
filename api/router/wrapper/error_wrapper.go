@@ -4,8 +4,8 @@ import (
 	"encoding/json"
 	"net/http"
 
-	"code.cloudfoundry.org/cli/api/router"
-	"code.cloudfoundry.org/cli/api/router/routererror"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/api/router"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/api/router/routererror"
 )
 
 const expiredTokenMessage = "Token is expired"

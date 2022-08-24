@@ -5,11 +5,11 @@ import (
 	"fmt"
 	"net/http"
 
-	"code.cloudfoundry.org/cli/api/cloudcontroller/ccerror"
-	. "code.cloudfoundry.org/cli/api/cloudcontroller/ccv3"
-	"code.cloudfoundry.org/cli/api/cloudcontroller/ccv3/ccv3fakes"
-	"code.cloudfoundry.org/cli/api/cloudcontroller/ccv3/internal"
-	"code.cloudfoundry.org/cli/resources"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/api/cloudcontroller/ccerror"
+	. "github.com/LukasHeimann/cloudfoundrycli/v8/api/cloudcontroller/ccv3"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/api/cloudcontroller/ccv3/ccv3fakes"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/api/cloudcontroller/ccv3/internal"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/resources"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 )

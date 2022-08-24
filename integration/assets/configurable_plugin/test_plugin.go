@@ -5,7 +5,7 @@ import (
 	"os"
 	"strings"
 
-	"code.cloudfoundry.org/cli/plugin"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/plugin"
 	"github.com/blang/semver"
 )
 

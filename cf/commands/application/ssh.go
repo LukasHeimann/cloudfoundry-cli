@@ -8,17 +8,17 @@ import (
 
 	"golang.org/x/crypto/ssh"
 
-	"code.cloudfoundry.org/cli/cf/commandregistry"
-	"code.cloudfoundry.org/cli/cf/commands"
-	"code.cloudfoundry.org/cli/cf/configuration/coreconfig"
-	"code.cloudfoundry.org/cli/cf/flags"
-	. "code.cloudfoundry.org/cli/cf/i18n"
-	"code.cloudfoundry.org/cli/cf/net"
-	"code.cloudfoundry.org/cli/cf/requirements"
-	sshCmd "code.cloudfoundry.org/cli/cf/ssh"
-	"code.cloudfoundry.org/cli/cf/ssh/options"
-	sshTerminal "code.cloudfoundry.org/cli/cf/ssh/terminal"
-	"code.cloudfoundry.org/cli/cf/terminal"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/cf/commandregistry"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/cf/commands"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/cf/configuration/coreconfig"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/cf/flags"
+	. "github.com/LukasHeimann/cloudfoundrycli/v8/cf/i18n"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/cf/net"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/cf/requirements"
+	sshCmd "github.com/LukasHeimann/cloudfoundrycli/v8/cf/ssh"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/cf/ssh/options"
+	sshTerminal "github.com/LukasHeimann/cloudfoundrycli/v8/cf/ssh/terminal"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/cf/terminal"
 )
 
 type SSH struct {

@@ -1,7 +1,7 @@
 package unique_test
 
 import (
-	"code.cloudfoundry.org/cli/util/unique"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/util/unique"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 )

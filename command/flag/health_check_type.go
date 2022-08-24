@@ -3,7 +3,7 @@ package flag
 import (
 	"strings"
 
-	"code.cloudfoundry.org/cli/api/cloudcontroller/ccv3/constant"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/api/cloudcontroller/ccv3/constant"
 
 	flags "github.com/jessevdk/go-flags"
 )

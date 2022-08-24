@@ -4,7 +4,7 @@ package configv3fakes
 import (
 	"sync"
 
-	"code.cloudfoundry.org/cli/util/configv3"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/util/configv3"
 )
 
 type FakeUserConfig struct {

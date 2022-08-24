@@ -4,8 +4,8 @@ package commonfakes
 import (
 	"sync"
 
-	"code.cloudfoundry.org/cli/actor/sharedaction"
-	"code.cloudfoundry.org/cli/command/common"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/actor/sharedaction"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/command/common"
 )
 
 type FakeHelpActor struct {

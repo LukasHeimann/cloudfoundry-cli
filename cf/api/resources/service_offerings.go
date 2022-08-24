@@ -4,7 +4,7 @@ import (
 	"encoding/json"
 	"strconv"
 
-	"code.cloudfoundry.org/cli/cf/models"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/cf/models"
 )
 
 type PaginatedServiceOfferingResources struct {

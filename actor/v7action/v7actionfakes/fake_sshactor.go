@@ -4,8 +4,8 @@ package v7actionfakes
 import (
 	"sync"
 
-	"code.cloudfoundry.org/cli/actor/sharedaction"
-	"code.cloudfoundry.org/cli/actor/v7action"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/actor/sharedaction"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/actor/v7action"
 )
 
 type FakeSSHActor struct {

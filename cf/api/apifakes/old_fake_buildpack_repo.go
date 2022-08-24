@@ -1,8 +1,8 @@
 package apifakes
 
 import (
-	"code.cloudfoundry.org/cli/cf/errors"
-	"code.cloudfoundry.org/cli/cf/models"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/cf/errors"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/cf/models"
 )
 
 type OldFakeBuildpackRepository struct {

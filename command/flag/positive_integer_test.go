@@ -5,7 +5,7 @@ import (
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 
-	. "code.cloudfoundry.org/cli/command/flag"
+	. "github.com/LukasHeimann/cloudfoundrycli/v8/command/flag"
 )
 
 var _ = Describe("Positive Integer", func() {

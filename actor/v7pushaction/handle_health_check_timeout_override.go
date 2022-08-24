@@ -1,8 +1,8 @@
 package v7pushaction
 
 import (
-	"code.cloudfoundry.org/cli/command/translatableerror"
-	"code.cloudfoundry.org/cli/util/manifestparser"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/command/translatableerror"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/util/manifestparser"
 )
 
 func HandleHealthCheckTimeoutOverride(manifest manifestparser.Manifest, overrides FlagOverrides) (manifestparser.Manifest, error) {

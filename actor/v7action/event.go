@@ -6,8 +6,8 @@ import (
 	"strings"
 	"time"
 
-	"code.cloudfoundry.org/cli/api/cloudcontroller/ccv3"
-	"code.cloudfoundry.org/cli/util/generic"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/api/cloudcontroller/ccv3"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/util/generic"
 )
 
 type Event struct {

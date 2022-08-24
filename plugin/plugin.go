@@ -1,6 +1,6 @@
 package plugin
 
-import plugin_models "code.cloudfoundry.org/cli/plugin/models"
+import plugin_models "github.com/LukasHeimann/cloudfoundrycli/v8/plugin/models"
 
 /**
 	Command interface needs to be implemented for a runnable plugin of `cf`

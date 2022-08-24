@@ -1,8 +1,8 @@
 package v7action
 
 import (
-	"code.cloudfoundry.org/cli/api/uaa"
-	"code.cloudfoundry.org/cli/api/uaa/constant"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/api/uaa"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/api/uaa/constant"
 )
 
 //go:generate go run github.com/maxbrunsfeld/counterfeiter/v6 . UAAClient

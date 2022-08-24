@@ -6,7 +6,7 @@ import (
 	"io/ioutil"
 	"strings"
 
-	"code.cloudfoundry.org/cli/types"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/types"
 	flags "github.com/jessevdk/go-flags"
 )
 

@@ -5,8 +5,8 @@ import (
 	"sync"
 	"time"
 
-	"code.cloudfoundry.org/cli/actor/v7action"
-	"code.cloudfoundry.org/cli/util/configv3"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/actor/v7action"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/util/configv3"
 )
 
 type FakeConfig struct {

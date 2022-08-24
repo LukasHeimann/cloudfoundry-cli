@@ -10,16 +10,16 @@ import (
 	"net/url"
 	"strings"
 
-	"code.cloudfoundry.org/cli/cf/commandregistry"
-	"code.cloudfoundry.org/cli/cf/configuration/coreconfig"
-	"code.cloudfoundry.org/cli/cf/flags"
-	"code.cloudfoundry.org/cli/cf/models"
-	"code.cloudfoundry.org/cli/cf/requirements"
-	"code.cloudfoundry.org/cli/cf/terminal"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/cf/commandregistry"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/cf/configuration/coreconfig"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/cf/flags"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/cf/models"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/cf/requirements"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/cf/terminal"
 
 	clipr "code.cloudfoundry.org/cli-plugin-repo/web"
 
-	. "code.cloudfoundry.org/cli/cf/i18n"
+	. "github.com/LukasHeimann/cloudfoundrycli/v8/cf/i18n"
 )
 
 type AddPluginRepo struct {

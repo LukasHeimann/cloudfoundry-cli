@@ -1,8 +1,8 @@
 package v7action
 
 import (
-	"code.cloudfoundry.org/cli/actor/actionerror"
-	"code.cloudfoundry.org/cli/api/cloudcontroller/ccerror"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/actor/actionerror"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/api/cloudcontroller/ccerror"
 )
 
 //go:generate go run github.com/maxbrunsfeld/counterfeiter/v6 . ManifestParser

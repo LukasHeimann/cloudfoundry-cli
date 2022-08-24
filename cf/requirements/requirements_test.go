@@ -1,9 +1,9 @@
 package requirements_test
 
 import (
-	. "code.cloudfoundry.org/cli/cf/requirements"
+	. "github.com/LukasHeimann/cloudfoundrycli/v8/cf/requirements"
 
-	"code.cloudfoundry.org/cli/cf/requirements/requirementsfakes"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/cf/requirements/requirementsfakes"
 	"errors"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"

@@ -1,22 +1,22 @@
 package space_test
 
 import (
-	"code.cloudfoundry.org/cli/cf/api/spacequotas/spacequotasfakes"
-	"code.cloudfoundry.org/cli/cf/commandregistry"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/cf/api/spacequotas/spacequotasfakes"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/cf/commandregistry"
 
-	testconfig "code.cloudfoundry.org/cli/cf/util/testhelpers/configuration"
-	testterm "code.cloudfoundry.org/cli/cf/util/testhelpers/terminal"
-	"code.cloudfoundry.org/cli/plugin/models"
+	testconfig "github.com/LukasHeimann/cloudfoundrycli/v8/cf/util/testhelpers/configuration"
+	testterm "github.com/LukasHeimann/cloudfoundrycli/v8/cf/util/testhelpers/terminal"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/plugin/models"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 
-	"code.cloudfoundry.org/cli/cf/api"
-	"code.cloudfoundry.org/cli/cf/commands/space"
-	"code.cloudfoundry.org/cli/cf/flags"
-	"code.cloudfoundry.org/cli/cf/models"
-	"code.cloudfoundry.org/cli/cf/requirements"
-	"code.cloudfoundry.org/cli/cf/requirements/requirementsfakes"
-	. "code.cloudfoundry.org/cli/cf/util/testhelpers/matchers"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/cf/api"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/cf/commands/space"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/cf/flags"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/cf/models"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/cf/requirements"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/cf/requirements/requirementsfakes"
+	. "github.com/LukasHeimann/cloudfoundrycli/v8/cf/util/testhelpers/matchers"
 )
 
 var _ = Describe("space command", func() {

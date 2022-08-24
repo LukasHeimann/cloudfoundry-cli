@@ -4,13 +4,13 @@ import (
 	"strings"
 	"time"
 
-	"code.cloudfoundry.org/cli/actor/sharedaction"
-	"code.cloudfoundry.org/cli/actor/v7action"
-	"code.cloudfoundry.org/cli/api/logcache"
-	"code.cloudfoundry.org/cli/command"
-	"code.cloudfoundry.org/cli/command/flag"
-	"code.cloudfoundry.org/cli/command/v7/shared"
-	"code.cloudfoundry.org/cli/resources"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/actor/sharedaction"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/actor/v7action"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/api/logcache"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/command"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/command/flag"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/command/v7/shared"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/resources"
 )
 
 type StagePackageCommand struct {

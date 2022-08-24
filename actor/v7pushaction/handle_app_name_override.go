@@ -1,9 +1,9 @@
 package v7pushaction
 
 import (
-	"code.cloudfoundry.org/cli/cf/errors"
-	"code.cloudfoundry.org/cli/command/translatableerror"
-	"code.cloudfoundry.org/cli/util/manifestparser"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/cf/errors"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/command/translatableerror"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/util/manifestparser"
 )
 
 func HandleAppNameOverride(manifest manifestparser.Manifest, overrides FlagOverrides) (manifestparser.Manifest, error) {

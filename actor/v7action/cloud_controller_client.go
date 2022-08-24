@@ -4,10 +4,10 @@ import (
 	"io"
 	"net/http"
 
-	"code.cloudfoundry.org/cli/api/cloudcontroller/ccv3"
-	"code.cloudfoundry.org/cli/api/cloudcontroller/ccv3/constant"
-	"code.cloudfoundry.org/cli/resources"
-	"code.cloudfoundry.org/cli/types"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/api/cloudcontroller/ccv3"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/api/cloudcontroller/ccv3/constant"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/resources"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/types"
 )
 
 //go:generate go run github.com/maxbrunsfeld/counterfeiter/v6 . CloudControllerClient

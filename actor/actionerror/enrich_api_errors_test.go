@@ -3,9 +3,9 @@ package actionerror_test
 import (
 	"errors"
 
-	"code.cloudfoundry.org/cli/api/cloudcontroller/ccerror"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/api/cloudcontroller/ccerror"
 
-	"code.cloudfoundry.org/cli/actor/actionerror"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/actor/actionerror"
 
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"

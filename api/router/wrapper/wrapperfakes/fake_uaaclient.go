@@ -4,8 +4,8 @@ package wrapperfakes
 import (
 	"sync"
 
-	"code.cloudfoundry.org/cli/api/router/wrapper"
-	"code.cloudfoundry.org/cli/api/uaa"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/api/router/wrapper"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/api/uaa"
 )
 
 type FakeUAAClient struct {

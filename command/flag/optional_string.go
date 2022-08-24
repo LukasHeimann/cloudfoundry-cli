@@ -1,6 +1,6 @@
 package flag
 
-import "code.cloudfoundry.org/cli/types"
+import "github.com/LukasHeimann/cloudfoundrycli/v8/types"
 
 type OptionalString types.OptionalString
 

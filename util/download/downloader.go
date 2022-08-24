@@ -9,7 +9,7 @@ import (
 	"path/filepath"
 	"time"
 
-	"code.cloudfoundry.org/cli/util"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/util"
 )
 
 type Downloader struct {

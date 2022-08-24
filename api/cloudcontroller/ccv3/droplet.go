@@ -3,10 +3,10 @@ package ccv3
 import (
 	"io"
 
-	"code.cloudfoundry.org/cli/api/cloudcontroller/ccv3/constant"
-	"code.cloudfoundry.org/cli/api/cloudcontroller/ccv3/internal"
-	"code.cloudfoundry.org/cli/api/cloudcontroller/uploads"
-	"code.cloudfoundry.org/cli/resources"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/api/cloudcontroller/ccv3/constant"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/api/cloudcontroller/ccv3/internal"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/api/cloudcontroller/uploads"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/resources"
 )
 
 type DropletCreateRequest struct {

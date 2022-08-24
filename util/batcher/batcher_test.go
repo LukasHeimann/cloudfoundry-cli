@@ -3,10 +3,10 @@ package batcher_test
 import (
 	"fmt"
 
-	"code.cloudfoundry.org/cli/cf/errors"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/cf/errors"
 
-	"code.cloudfoundry.org/cli/api/cloudcontroller/ccv3"
-	"code.cloudfoundry.org/cli/util/batcher"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/api/cloudcontroller/ccv3"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/util/batcher"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 )

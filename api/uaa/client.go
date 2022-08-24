@@ -9,7 +9,7 @@ import (
 	"fmt"
 	"runtime"
 
-	"code.cloudfoundry.org/cli/api/uaa/internal"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/api/uaa/internal"
 )
 
 // Client is the UAA client

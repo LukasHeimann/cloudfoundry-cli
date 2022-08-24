@@ -4,8 +4,8 @@ import (
 	"path"
 	"strings"
 
-	"code.cloudfoundry.org/cli/i18n/resources"
-	"code.cloudfoundry.org/cli/util/ui"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/i18n/resources"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/util/ui"
 )
 
 const resourceSuffix = ".all.json"

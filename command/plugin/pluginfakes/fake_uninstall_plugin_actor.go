@@ -4,8 +4,8 @@ package pluginfakes
 import (
 	"sync"
 
-	"code.cloudfoundry.org/cli/actor/pluginaction"
-	"code.cloudfoundry.org/cli/command/plugin"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/actor/pluginaction"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/command/plugin"
 )
 
 type FakeUninstallPluginActor struct {

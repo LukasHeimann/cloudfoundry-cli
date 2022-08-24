@@ -3,8 +3,8 @@ package common
 import (
 	"reflect"
 
-	"code.cloudfoundry.org/cli/command/plugin"
-	v7 "code.cloudfoundry.org/cli/command/v7"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/command/plugin"
+	v7 "github.com/LukasHeimann/cloudfoundrycli/v8/command/v7"
 )
 
 var Commands commandList

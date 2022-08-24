@@ -5,10 +5,10 @@ import (
 	"strconv"
 	"strings"
 
-	"code.cloudfoundry.org/cli/command"
-	"code.cloudfoundry.org/cli/resources"
-	"code.cloudfoundry.org/cli/types"
-	"code.cloudfoundry.org/cli/util/ui"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/command"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/resources"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/types"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/util/ui"
 )
 
 const (

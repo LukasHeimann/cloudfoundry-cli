@@ -5,7 +5,7 @@ import (
 	"sync"
 	"time"
 
-	"code.cloudfoundry.org/cli/api/router/wrapper"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/api/router/wrapper"
 )
 
 type FakeRequestLoggerOutput struct {

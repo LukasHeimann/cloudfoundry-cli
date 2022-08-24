@@ -5,8 +5,8 @@ import (
 	"os"
 	"sync"
 
-	"code.cloudfoundry.org/cli/cf/api"
-	"code.cloudfoundry.org/cli/cf/models"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/cf/api"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/cf/models"
 )
 
 type FakeBuildpackBitsRepository struct {

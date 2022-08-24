@@ -1,6 +1,6 @@
 package lookuptable
 
-import "code.cloudfoundry.org/cli/resources"
+import "github.com/LukasHeimann/cloudfoundrycli/v8/resources"
 
 func OrgFromGUID(orgs []resources.Organization) map[string]resources.Organization {
 	result := make(map[string]resources.Organization)

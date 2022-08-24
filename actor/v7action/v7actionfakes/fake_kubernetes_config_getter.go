@@ -4,7 +4,7 @@ package v7actionfakes
 import (
 	"sync"
 
-	"code.cloudfoundry.org/cli/actor/v7action"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/actor/v7action"
 	"k8s.io/client-go/tools/clientcmd/api"
 )
 

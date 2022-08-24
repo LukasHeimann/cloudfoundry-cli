@@ -1,10 +1,10 @@
 package actors
 
 import (
-	"code.cloudfoundry.org/cli/cf/actors/brokerbuilder"
-	"code.cloudfoundry.org/cli/cf/actors/servicebuilder"
-	"code.cloudfoundry.org/cli/cf/api/organizations"
-	"code.cloudfoundry.org/cli/cf/models"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/cf/actors/brokerbuilder"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/cf/actors/servicebuilder"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/cf/api/organizations"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/cf/models"
 )
 
 //go:generate go run github.com/maxbrunsfeld/counterfeiter/v6 . ServiceActor

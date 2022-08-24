@@ -1,6 +1,6 @@
 package sharedaction
 
-import "code.cloudfoundry.org/cli/util/clissh"
+import "github.com/LukasHeimann/cloudfoundrycli/v8/util/clissh"
 
 //go:generate go run github.com/maxbrunsfeld/counterfeiter/v6 . SecureShellClient
 

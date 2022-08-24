@@ -1,8 +1,8 @@
 package flag_test
 
 import (
-	. "code.cloudfoundry.org/cli/command/flag"
-	"code.cloudfoundry.org/cli/types"
+	. "github.com/LukasHeimann/cloudfoundrycli/v8/command/flag"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/types"
 	flags "github.com/jessevdk/go-flags"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"

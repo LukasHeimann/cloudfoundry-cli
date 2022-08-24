@@ -4,7 +4,7 @@ package routerfakes
 import (
 	"sync"
 
-	"code.cloudfoundry.org/cli/api/router"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/api/router"
 )
 
 type FakeConnectionWrapper struct {

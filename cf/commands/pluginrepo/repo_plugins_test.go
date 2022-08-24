@@ -1,20 +1,20 @@
 package pluginrepo_test
 
 import (
-	"code.cloudfoundry.org/cli/cf/actors/pluginrepo/pluginrepofakes"
-	"code.cloudfoundry.org/cli/cf/commands/pluginrepo"
-	"code.cloudfoundry.org/cli/cf/configuration/coreconfig"
-	"code.cloudfoundry.org/cli/cf/models"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/cf/actors/pluginrepo/pluginrepofakes"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/cf/commands/pluginrepo"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/cf/configuration/coreconfig"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/cf/models"
 
-	"code.cloudfoundry.org/cli/cf/commandregistry"
-	. "code.cloudfoundry.org/cli/cf/util/testhelpers/matchers"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/cf/commandregistry"
+	. "github.com/LukasHeimann/cloudfoundrycli/v8/cf/util/testhelpers/matchers"
 
-	testconfig "code.cloudfoundry.org/cli/cf/util/testhelpers/configuration"
-	testterm "code.cloudfoundry.org/cli/cf/util/testhelpers/terminal"
+	testconfig "github.com/LukasHeimann/cloudfoundrycli/v8/cf/util/testhelpers/configuration"
+	testterm "github.com/LukasHeimann/cloudfoundrycli/v8/cf/util/testhelpers/terminal"
 
 	clipr "code.cloudfoundry.org/cli-plugin-repo/web"
 
-	"code.cloudfoundry.org/cli/cf/flags"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/cf/flags"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 )

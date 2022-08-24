@@ -9,10 +9,10 @@ import (
 	"github.com/onsi/gomega/gexec"
 	apiv1 "k8s.io/client-go/tools/clientcmd/api/v1"
 
-	"code.cloudfoundry.org/cli/integration/helpers"
-	"code.cloudfoundry.org/cli/integration/v7/selfcontained/fake"
-	"code.cloudfoundry.org/cli/resources"
-	"code.cloudfoundry.org/cli/util/configv3"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/integration/helpers"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/integration/v7/selfcontained/fake"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/resources"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/util/configv3"
 )
 
 var _ = Describe("auth-provider", func() {

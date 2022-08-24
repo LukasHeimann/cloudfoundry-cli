@@ -4,12 +4,12 @@ import (
 	"errors"
 	"fmt"
 
-	"code.cloudfoundry.org/cli/api/uaa/constant"
-	"code.cloudfoundry.org/cli/api/uaa/uaaversion"
-	"code.cloudfoundry.org/cli/command"
-	"code.cloudfoundry.org/cli/command/flag"
-	"code.cloudfoundry.org/cli/command/translatableerror"
-	"code.cloudfoundry.org/cli/command/v7/shared"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/api/uaa/constant"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/api/uaa/uaaversion"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/command"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/command/flag"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/command/translatableerror"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/command/v7/shared"
 )
 
 type AuthCommand struct {

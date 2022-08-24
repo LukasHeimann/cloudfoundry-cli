@@ -3,7 +3,7 @@ package ccerror
 import (
 	"fmt"
 
-	"code.cloudfoundry.org/cli/api/cloudcontroller/ccv3/constant"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/api/cloudcontroller/ccv3/constant"
 )
 
 // UserNotFoundError is returned when a role does not exist.

@@ -4,7 +4,7 @@ package commandregistryfakes
 import (
 	"sync"
 
-	"code.cloudfoundry.org/cli/cf/commandregistry"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/cf/commandregistry"
 )
 
 type FakeRandomWordGenerator struct {

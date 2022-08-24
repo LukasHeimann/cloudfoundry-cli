@@ -5,7 +5,7 @@ import (
 	"net/http"
 	"runtime"
 
-	. "code.cloudfoundry.org/cli/api/uaa"
+	. "github.com/LukasHeimann/cloudfoundrycli/v8/api/uaa"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 	. "github.com/onsi/gomega/ghttp"

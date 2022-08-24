@@ -4,7 +4,7 @@ package uifakes
 import (
 	"sync"
 
-	"code.cloudfoundry.org/cli/util/ui"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/util/ui"
 	"github.com/vito/go-interact/interact"
 )
 

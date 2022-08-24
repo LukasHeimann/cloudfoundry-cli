@@ -4,8 +4,8 @@ import (
 	"encoding/json"
 	"strconv"
 
-	"code.cloudfoundry.org/cli/cf/formatters"
-	. "code.cloudfoundry.org/cli/cf/i18n"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/cf/formatters"
+	. "github.com/LukasHeimann/cloudfoundrycli/v8/cf/i18n"
 )
 
 type SpaceQuota struct {

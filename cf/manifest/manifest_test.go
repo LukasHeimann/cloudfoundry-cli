@@ -4,12 +4,12 @@ import (
 	"runtime"
 	"strings"
 
-	"code.cloudfoundry.org/cli/cf/manifest"
-	"code.cloudfoundry.org/cli/util/generic"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/cf/manifest"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/util/generic"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 
-	. "code.cloudfoundry.org/cli/cf/util/testhelpers/matchers"
+	. "github.com/LukasHeimann/cloudfoundrycli/v8/cf/util/testhelpers/matchers"
 )
 
 func NewManifest(path string, data generic.Map) (m *manifest.Manifest) {

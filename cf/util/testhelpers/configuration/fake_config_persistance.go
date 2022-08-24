@@ -1,8 +1,8 @@
 package configuration
 
 import (
-	"code.cloudfoundry.org/cli/cf/configuration"
-	"code.cloudfoundry.org/cli/cf/configuration/coreconfig"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/cf/configuration"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/cf/configuration/coreconfig"
 )
 
 type FakePersistor struct {

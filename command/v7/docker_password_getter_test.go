@@ -1,9 +1,9 @@
 package v7_test
 
 import (
-	"code.cloudfoundry.org/cli/command/commandfakes"
-	. "code.cloudfoundry.org/cli/command/v7"
-	"code.cloudfoundry.org/cli/util/ui"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/command/commandfakes"
+	. "github.com/LukasHeimann/cloudfoundrycli/v8/command/v7"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/util/ui"
 	. "github.com/onsi/ginkgo"
 
 	. "github.com/onsi/gomega"

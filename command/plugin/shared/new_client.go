@@ -1,9 +1,9 @@
 package shared
 
 import (
-	"code.cloudfoundry.org/cli/api/plugin"
-	"code.cloudfoundry.org/cli/api/plugin/wrapper"
-	"code.cloudfoundry.org/cli/command"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/api/plugin"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/api/plugin/wrapper"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/command"
 )
 
 // NewClient creates a new V2 Cloud Controller client and UAA client using the

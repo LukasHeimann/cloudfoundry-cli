@@ -5,7 +5,7 @@ import (
 	"log"
 	"net/url"
 
-	"code.cloudfoundry.org/cli/api/router"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/api/router"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 	. "github.com/onsi/gomega/ghttp"

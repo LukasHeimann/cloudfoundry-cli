@@ -3,8 +3,8 @@ package coreconfig
 import (
 	"encoding/json"
 
-	"code.cloudfoundry.org/cli/cf/models"
-	"code.cloudfoundry.org/cli/util/configv3"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/cf/models"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/util/configv3"
 )
 
 type AuthPromptType string

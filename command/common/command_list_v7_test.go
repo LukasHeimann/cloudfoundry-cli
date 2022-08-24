@@ -1,7 +1,7 @@
 package common_test
 
 import (
-	. "code.cloudfoundry.org/cli/command/common"
+	. "github.com/LukasHeimann/cloudfoundrycli/v8/command/common"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 )

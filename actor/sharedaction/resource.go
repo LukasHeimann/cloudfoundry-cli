@@ -10,9 +10,9 @@ import (
 	"path/filepath"
 	"strings"
 
-	"code.cloudfoundry.org/cli/api/cloudcontroller/ccv3"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/api/cloudcontroller/ccv3"
 
-	"code.cloudfoundry.org/cli/actor/actionerror"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/actor/actionerror"
 	"code.cloudfoundry.org/ykk"
 	ignore "github.com/sabhiram/go-gitignore"
 	log "github.com/sirupsen/logrus"

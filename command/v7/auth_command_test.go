@@ -1,17 +1,17 @@
 package v7_test
 
 import (
-	"code.cloudfoundry.org/cli/cf/configuration/coreconfig"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/cf/configuration/coreconfig"
 	"errors"
 
-	"code.cloudfoundry.org/cli/api/uaa"
-	"code.cloudfoundry.org/cli/api/uaa/constant"
-	"code.cloudfoundry.org/cli/api/uaa/uaaversion"
-	"code.cloudfoundry.org/cli/command/commandfakes"
-	"code.cloudfoundry.org/cli/command/translatableerror"
-	. "code.cloudfoundry.org/cli/command/v7"
-	"code.cloudfoundry.org/cli/command/v7/v7fakes"
-	"code.cloudfoundry.org/cli/util/ui"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/api/uaa"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/api/uaa/constant"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/api/uaa/uaaversion"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/command/commandfakes"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/command/translatableerror"
+	. "github.com/LukasHeimann/cloudfoundrycli/v8/command/v7"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/command/v7/v7fakes"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/util/ui"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 	. "github.com/onsi/gomega/gbytes"

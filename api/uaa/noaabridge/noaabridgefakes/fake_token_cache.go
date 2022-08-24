@@ -4,7 +4,7 @@ package noaabridgefakes
 import (
 	"sync"
 
-	"code.cloudfoundry.org/cli/api/uaa/noaabridge"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/api/uaa/noaabridge"
 )
 
 type FakeTokenCache struct {

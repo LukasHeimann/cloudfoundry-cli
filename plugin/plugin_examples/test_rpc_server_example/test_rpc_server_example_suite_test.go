@@ -3,7 +3,7 @@ package main_test
 import (
 	"time"
 
-	"code.cloudfoundry.org/cli/cf/util/testhelpers/pluginbuilder"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/cf/util/testhelpers/pluginbuilder"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 

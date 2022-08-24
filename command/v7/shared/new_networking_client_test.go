@@ -1,11 +1,11 @@
 package shared_test
 
 import (
-	"code.cloudfoundry.org/cli/command/commandfakes"
-	. "code.cloudfoundry.org/cli/command/v7/shared"
-	"code.cloudfoundry.org/cli/util/ui"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/command/commandfakes"
+	. "github.com/LukasHeimann/cloudfoundrycli/v8/command/v7/shared"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/util/ui"
 
-	"code.cloudfoundry.org/cli/api/uaa"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/api/uaa"
 
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"

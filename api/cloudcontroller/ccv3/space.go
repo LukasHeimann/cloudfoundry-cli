@@ -1,8 +1,8 @@
 package ccv3
 
 import (
-	"code.cloudfoundry.org/cli/api/cloudcontroller/ccv3/internal"
-	"code.cloudfoundry.org/cli/resources"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/api/cloudcontroller/ccv3/internal"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/resources"
 )
 
 func (client *Client) CreateSpace(space resources.Space) (resources.Space, Warnings, error) {

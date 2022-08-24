@@ -5,17 +5,17 @@ import (
 	"os"
 	"path/filepath"
 
-	"code.cloudfoundry.org/cli/cf/commandregistry"
-	"code.cloudfoundry.org/cli/cf/configuration"
-	"code.cloudfoundry.org/cli/cf/configuration/confighelpers"
-	"code.cloudfoundry.org/cli/cf/configuration/pluginconfig"
-	"code.cloudfoundry.org/cli/cf/requirements/requirementsfakes"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/cf/commandregistry"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/cf/configuration"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/cf/configuration/confighelpers"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/cf/configuration/pluginconfig"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/cf/requirements/requirementsfakes"
 	"code.cloudfoundry.org/gofileutils/fileutils"
 
-	testcmd "code.cloudfoundry.org/cli/cf/util/testhelpers/commands"
-	testterm "code.cloudfoundry.org/cli/cf/util/testhelpers/terminal"
+	testcmd "github.com/LukasHeimann/cloudfoundrycli/v8/cf/util/testhelpers/commands"
+	testterm "github.com/LukasHeimann/cloudfoundrycli/v8/cf/util/testhelpers/terminal"
 
-	. "code.cloudfoundry.org/cli/cf/util/testhelpers/matchers"
+	. "github.com/LukasHeimann/cloudfoundrycli/v8/cf/util/testhelpers/matchers"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 )

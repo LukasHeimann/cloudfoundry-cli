@@ -7,9 +7,9 @@ import (
 	"net/url"
 	"syscall"
 
-	"code.cloudfoundry.org/cli/cf/errors"
-	. "code.cloudfoundry.org/cli/cf/net"
-	"code.cloudfoundry.org/cli/cf/trace/tracefakes"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/cf/errors"
+	. "github.com/LukasHeimann/cloudfoundrycli/v8/cf/net"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/cf/trace/tracefakes"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 	"golang.org/x/net/websocket"

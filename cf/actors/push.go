@@ -7,11 +7,11 @@ import (
 	"path/filepath"
 	"runtime"
 
-	"code.cloudfoundry.org/cli/cf/api/applicationbits"
-	"code.cloudfoundry.org/cli/cf/api/resources"
-	"code.cloudfoundry.org/cli/cf/appfiles"
-	. "code.cloudfoundry.org/cli/cf/i18n"
-	"code.cloudfoundry.org/cli/cf/models"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/cf/api/applicationbits"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/cf/api/resources"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/cf/appfiles"
+	. "github.com/LukasHeimann/cloudfoundrycli/v8/cf/i18n"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/cf/models"
 	"code.cloudfoundry.org/gofileutils/fileutils"
 )
 

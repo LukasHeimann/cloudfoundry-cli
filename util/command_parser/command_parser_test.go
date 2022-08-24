@@ -3,11 +3,11 @@ package command_parser_test
 import (
 	"io/ioutil"
 
-	"code.cloudfoundry.org/cli/command/commandfakes"
-	"code.cloudfoundry.org/cli/command/common"
-	"code.cloudfoundry.org/cli/util/command_parser"
-	"code.cloudfoundry.org/cli/util/configv3"
-	"code.cloudfoundry.org/cli/util/ui"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/command/commandfakes"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/command/common"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/util/command_parser"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/util/configv3"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/util/ui"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 )

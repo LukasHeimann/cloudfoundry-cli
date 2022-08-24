@@ -1,7 +1,7 @@
 package v7pushaction
 
 import (
-	"code.cloudfoundry.org/cli/util/manifestparser"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/util/manifestparser"
 )
 
 func (actor Actor) HandleFlagOverrides(

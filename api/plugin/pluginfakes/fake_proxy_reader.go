@@ -5,7 +5,7 @@ import (
 	"io"
 	"sync"
 
-	"code.cloudfoundry.org/cli/api/plugin"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/api/plugin"
 )
 
 type FakeProxyReader struct {

@@ -4,7 +4,7 @@ package clisshfakes
 import (
 	"sync"
 
-	"code.cloudfoundry.org/cli/util/clissh"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/util/clissh"
 	"golang.org/x/crypto/ssh"
 )
 

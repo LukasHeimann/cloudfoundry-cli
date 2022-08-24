@@ -4,8 +4,8 @@ import (
 	"reflect"
 	"strings"
 
-	"code.cloudfoundry.org/cli/command/common"
-	"code.cloudfoundry.org/cli/command/common/internal"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/command/common"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/command/common/internal"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 )

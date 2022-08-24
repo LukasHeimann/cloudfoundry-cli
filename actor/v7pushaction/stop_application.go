@@ -1,7 +1,7 @@
 package v7pushaction
 
 import (
-	"code.cloudfoundry.org/cli/actor/v7action"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/actor/v7action"
 	log "github.com/sirupsen/logrus"
 )
 

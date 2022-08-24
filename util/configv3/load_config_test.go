@@ -6,10 +6,10 @@ import (
 	"os"
 	"path/filepath"
 
-	"code.cloudfoundry.org/cli/command/translatableerror"
-	"code.cloudfoundry.org/cli/integration/helpers"
-	"code.cloudfoundry.org/cli/util/configv3"
-	. "code.cloudfoundry.org/cli/util/configv3"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/command/translatableerror"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/integration/helpers"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/util/configv3"
+	. "github.com/LukasHeimann/cloudfoundrycli/v8/util/configv3"
 
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"

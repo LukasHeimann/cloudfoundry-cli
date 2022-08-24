@@ -3,7 +3,7 @@ package shared
 import (
 	"fmt"
 
-	"code.cloudfoundry.org/cli/api/cloudcontroller/ccversion"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/api/cloudcontroller/ccversion"
 	"github.com/blang/semver"
 )
 

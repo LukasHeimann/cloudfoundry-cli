@@ -3,11 +3,11 @@ package v7pushaction_test
 import (
 	"errors"
 
-	"code.cloudfoundry.org/cli/actor/v7action"
-	. "code.cloudfoundry.org/cli/actor/v7pushaction"
-	"code.cloudfoundry.org/cli/actor/v7pushaction/v7pushactionfakes"
-	"code.cloudfoundry.org/cli/api/cloudcontroller/ccv3/constant"
-	"code.cloudfoundry.org/cli/resources"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/actor/v7action"
+	. "github.com/LukasHeimann/cloudfoundrycli/v8/actor/v7pushaction"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/actor/v7pushaction/v7pushactionfakes"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/api/cloudcontroller/ccv3/constant"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/resources"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 )

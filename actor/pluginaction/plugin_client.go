@@ -1,6 +1,6 @@
 package pluginaction
 
-import "code.cloudfoundry.org/cli/api/plugin"
+import "github.com/LukasHeimann/cloudfoundrycli/v8/api/plugin"
 
 //go:generate go run github.com/maxbrunsfeld/counterfeiter/v6 . PluginClient
 

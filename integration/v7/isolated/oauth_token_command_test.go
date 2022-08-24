@@ -3,8 +3,8 @@ package isolated
 import (
 	"regexp"
 
-	"code.cloudfoundry.org/cli/integration/helpers"
-	"code.cloudfoundry.org/cli/util/configv3"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/integration/helpers"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/util/configv3"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 	. "github.com/onsi/gomega/gbytes"

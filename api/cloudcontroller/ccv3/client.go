@@ -75,7 +75,7 @@ package ccv3
 import (
 	"time"
 
-	"code.cloudfoundry.org/cli/api/cloudcontroller/ccv3/internal"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/api/cloudcontroller/ccv3/internal"
 )
 
 // Warnings are a collection of warnings that the Cloud Controller can return

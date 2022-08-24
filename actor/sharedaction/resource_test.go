@@ -7,11 +7,11 @@ import (
 	"os"
 	"path/filepath"
 
-	"code.cloudfoundry.org/cli/api/cloudcontroller/ccv3"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/api/cloudcontroller/ccv3"
 
-	"code.cloudfoundry.org/cli/actor/actionerror"
-	. "code.cloudfoundry.org/cli/actor/sharedaction"
-	"code.cloudfoundry.org/cli/actor/sharedaction/sharedactionfakes"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/actor/actionerror"
+	. "github.com/LukasHeimann/cloudfoundrycli/v8/actor/sharedaction"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/actor/sharedaction/sharedactionfakes"
 	"code.cloudfoundry.org/ykk"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"

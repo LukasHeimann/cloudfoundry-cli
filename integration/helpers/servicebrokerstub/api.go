@@ -3,9 +3,9 @@ package servicebrokerstub
 import (
 	"time"
 
-	"code.cloudfoundry.org/cli/integration/helpers"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/integration/helpers"
 
-	"code.cloudfoundry.org/cli/integration/assets/hydrabroker/config"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/integration/assets/hydrabroker/config"
 )
 
 type ServiceAccessConfig struct {

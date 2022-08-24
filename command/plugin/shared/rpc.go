@@ -9,10 +9,10 @@ import (
 
 	netrpc "net/rpc"
 
-	"code.cloudfoundry.org/cli/cf/commandregistry"
-	"code.cloudfoundry.org/cli/cf/trace"
-	"code.cloudfoundry.org/cli/plugin/rpc"
-	"code.cloudfoundry.org/cli/util/configv3"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/cf/commandregistry"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/cf/trace"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/plugin/rpc"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/util/configv3"
 )
 
 type Config interface {

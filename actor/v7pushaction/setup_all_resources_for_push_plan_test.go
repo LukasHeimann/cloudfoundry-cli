@@ -5,11 +5,11 @@ import (
 	"io/ioutil"
 	"os"
 
-	"code.cloudfoundry.org/cli/actor/sharedaction"
-	"code.cloudfoundry.org/cli/api/cloudcontroller/ccv3/constant"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/actor/sharedaction"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/api/cloudcontroller/ccv3/constant"
 
-	. "code.cloudfoundry.org/cli/actor/v7pushaction"
-	"code.cloudfoundry.org/cli/actor/v7pushaction/v7pushactionfakes"
+	. "github.com/LukasHeimann/cloudfoundrycli/v8/actor/v7pushaction"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/actor/v7pushaction/v7pushactionfakes"
 
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"

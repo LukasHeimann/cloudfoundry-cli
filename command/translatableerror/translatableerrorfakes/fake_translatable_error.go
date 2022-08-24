@@ -4,7 +4,7 @@ package translatableerrorfakes
 import (
 	"sync"
 
-	"code.cloudfoundry.org/cli/command/translatableerror"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/command/translatableerror"
 )
 
 type FakeTranslatableError struct {

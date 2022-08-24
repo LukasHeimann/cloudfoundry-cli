@@ -1,7 +1,7 @@
 package rpc_test
 
 import (
-	"code.cloudfoundry.org/cli/plugin/rpc"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/plugin/rpc"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 

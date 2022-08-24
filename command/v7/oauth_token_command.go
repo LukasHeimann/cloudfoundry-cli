@@ -4,7 +4,7 @@ import (
 	"errors"
 	"time"
 
-	"code.cloudfoundry.org/cli/api/uaa/constant"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/api/uaa/constant"
 )
 
 type OauthTokenCommand struct {

@@ -4,7 +4,7 @@ import (
 	"reflect"
 	"strings"
 
-	"code.cloudfoundry.org/cli/util/unique"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/util/unique"
 )
 
 type appender func(string)

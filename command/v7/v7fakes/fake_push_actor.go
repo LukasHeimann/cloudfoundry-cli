@@ -4,10 +4,10 @@ package v7fakes
 import (
 	"sync"
 
-	"code.cloudfoundry.org/cli/actor/v7action"
-	"code.cloudfoundry.org/cli/actor/v7pushaction"
-	v7 "code.cloudfoundry.org/cli/command/v7"
-	"code.cloudfoundry.org/cli/util/manifestparser"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/actor/v7action"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/actor/v7pushaction"
+	v7 "github.com/LukasHeimann/cloudfoundrycli/v8/command/v7"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/util/manifestparser"
 )
 
 type FakePushActor struct {

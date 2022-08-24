@@ -4,14 +4,14 @@ import (
 	"fmt"
 	"sort"
 
-	"code.cloudfoundry.org/cli/cf/commandregistry"
-	"code.cloudfoundry.org/cli/cf/configuration/pluginconfig"
-	"code.cloudfoundry.org/cli/cf/flags"
-	. "code.cloudfoundry.org/cli/cf/i18n"
-	"code.cloudfoundry.org/cli/cf/requirements"
-	"code.cloudfoundry.org/cli/cf/terminal"
-	"code.cloudfoundry.org/cli/util"
-	"code.cloudfoundry.org/cli/util/sorting"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/cf/commandregistry"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/cf/configuration/pluginconfig"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/cf/flags"
+	. "github.com/LukasHeimann/cloudfoundrycli/v8/cf/i18n"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/cf/requirements"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/cf/terminal"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/util"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/util/sorting"
 )
 
 type Plugins struct {

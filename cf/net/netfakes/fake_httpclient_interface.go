@@ -5,7 +5,7 @@ import (
 	"net/http"
 	"sync"
 
-	"code.cloudfoundry.org/cli/cf/net"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/cf/net"
 )
 
 type FakeHTTPClientInterface struct {

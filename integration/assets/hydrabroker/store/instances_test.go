@@ -3,13 +3,13 @@ package store_test
 import (
 	"fmt"
 
-	"code.cloudfoundry.org/cli/integration/assets/hydrabroker/config"
-	"code.cloudfoundry.org/cli/integration/assets/hydrabroker/resources"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/integration/assets/hydrabroker/config"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/integration/assets/hydrabroker/resources"
 	uuid "github.com/nu7hatch/gouuid"
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
 
-	"code.cloudfoundry.org/cli/integration/assets/hydrabroker/store"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/integration/assets/hydrabroker/store"
 )
 
 var _ = Describe("Instances", func() {

@@ -8,7 +8,7 @@ import (
 	"strings"
 	"time"
 
-	"code.cloudfoundry.org/cli/api/cloudcontroller"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/api/cloudcontroller"
 )
 
 //go:generate go run github.com/maxbrunsfeld/counterfeiter/v6 . RequestLoggerOutput

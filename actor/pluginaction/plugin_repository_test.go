@@ -4,11 +4,11 @@ import (
 	"errors"
 	"strings"
 
-	"code.cloudfoundry.org/cli/actor/actionerror"
-	. "code.cloudfoundry.org/cli/actor/pluginaction"
-	"code.cloudfoundry.org/cli/actor/pluginaction/pluginactionfakes"
-	"code.cloudfoundry.org/cli/api/plugin"
-	"code.cloudfoundry.org/cli/util/configv3"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/actor/actionerror"
+	. "github.com/LukasHeimann/cloudfoundrycli/v8/actor/pluginaction"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/actor/pluginaction/pluginactionfakes"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/api/plugin"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/util/configv3"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 )

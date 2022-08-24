@@ -1,7 +1,7 @@
 package randomword_test
 
 import (
-	. "code.cloudfoundry.org/cli/util/randomword"
+	. "github.com/LukasHeimann/cloudfoundrycli/v8/util/randomword"
 
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"

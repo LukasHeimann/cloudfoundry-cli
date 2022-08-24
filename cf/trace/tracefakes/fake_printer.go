@@ -4,7 +4,7 @@ package tracefakes
 import (
 	"sync"
 
-	"code.cloudfoundry.org/cli/cf/trace"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/cf/trace"
 )
 
 type FakePrinter struct {

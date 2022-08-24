@@ -3,9 +3,9 @@ package logs_test
 import (
 	"time"
 
-	"code.cloudfoundry.org/cli/actor/sharedaction"
-	"code.cloudfoundry.org/cli/cf/api/logs"
-	"code.cloudfoundry.org/cli/cf/api/logs/logsfakes"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/actor/sharedaction"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/cf/api/logs"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/cf/api/logs/logsfakes"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 )

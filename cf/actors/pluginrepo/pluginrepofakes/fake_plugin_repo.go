@@ -5,8 +5,8 @@ import (
 	"sync"
 
 	"code.cloudfoundry.org/cli-plugin-repo/web"
-	"code.cloudfoundry.org/cli/cf/actors/pluginrepo"
-	"code.cloudfoundry.org/cli/cf/models"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/cf/actors/pluginrepo"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/cf/models"
 )
 
 type FakePluginRepo struct {

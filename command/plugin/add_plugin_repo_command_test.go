@@ -1,11 +1,11 @@
 package plugin_test
 
 import (
-	"code.cloudfoundry.org/cli/actor/actionerror"
-	"code.cloudfoundry.org/cli/command/commandfakes"
-	. "code.cloudfoundry.org/cli/command/plugin"
-	"code.cloudfoundry.org/cli/command/plugin/pluginfakes"
-	"code.cloudfoundry.org/cli/util/ui"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/actor/actionerror"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/command/commandfakes"
+	. "github.com/LukasHeimann/cloudfoundrycli/v8/command/plugin"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/command/plugin/pluginfakes"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/util/ui"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 	. "github.com/onsi/gomega/gbytes"

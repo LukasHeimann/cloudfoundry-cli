@@ -5,7 +5,7 @@ import (
 	"sync"
 	"time"
 
-	"code.cloudfoundry.org/cli/api/uaa/wrapper"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/api/uaa/wrapper"
 )
 
 type FakeRequestLoggerOutput struct {

@@ -3,7 +3,7 @@ package command_parser
 import (
 	"strings"
 
-	"code.cloudfoundry.org/cli/command/translatableerror"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/command/translatableerror"
 )
 
 func preventExtraArgs(args []string) error {

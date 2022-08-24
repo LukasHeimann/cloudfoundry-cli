@@ -3,7 +3,7 @@ package models_test
 import (
 	"os"
 
-	. "code.cloudfoundry.org/cli/cf/models"
+	. "github.com/LukasHeimann/cloudfoundrycli/v8/cf/models"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 )

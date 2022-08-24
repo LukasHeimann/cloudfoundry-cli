@@ -3,7 +3,7 @@ package types_test
 import (
 	"encoding/json"
 
-	. "code.cloudfoundry.org/cli/types"
+	. "github.com/LukasHeimann/cloudfoundrycli/v8/types"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 )

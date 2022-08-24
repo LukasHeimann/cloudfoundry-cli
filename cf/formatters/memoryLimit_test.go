@@ -1,7 +1,7 @@
 package formatters_test
 
 import (
-	. "code.cloudfoundry.org/cli/cf/formatters"
+	. "github.com/LukasHeimann/cloudfoundrycli/v8/cf/formatters"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 )

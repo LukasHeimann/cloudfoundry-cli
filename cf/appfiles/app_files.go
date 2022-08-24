@@ -9,7 +9,7 @@ import (
 	"path/filepath"
 	"runtime"
 
-	"code.cloudfoundry.org/cli/cf/models"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/cf/models"
 	"code.cloudfoundry.org/gofileutils/fileutils"
 	securejoin "github.com/cyphar/filepath-securejoin"
 )

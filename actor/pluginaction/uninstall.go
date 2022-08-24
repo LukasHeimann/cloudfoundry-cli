@@ -5,7 +5,7 @@ import (
 	"os/exec"
 	"time"
 
-	"code.cloudfoundry.org/cli/actor/actionerror"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/actor/actionerror"
 )
 
 //go:generate go run github.com/maxbrunsfeld/counterfeiter/v6 . PluginUninstaller

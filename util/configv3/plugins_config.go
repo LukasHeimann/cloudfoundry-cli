@@ -9,7 +9,7 @@ import (
 	"sort"
 	"strings"
 
-	"code.cloudfoundry.org/cli/util"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/util"
 )
 
 const notApplicable = "N/A"

@@ -8,8 +8,8 @@ import (
 	"io/ioutil"
 	"net/http"
 
-	"code.cloudfoundry.org/cli/integration/assets/hydrabroker/config"
-	"code.cloudfoundry.org/cli/integration/helpers"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/integration/assets/hydrabroker/config"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/integration/helpers"
 	. "github.com/onsi/gomega"
 )
 

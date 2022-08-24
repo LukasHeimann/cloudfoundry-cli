@@ -4,8 +4,8 @@ package sshfakes
 import (
 	"sync"
 
-	sshCmd "code.cloudfoundry.org/cli/cf/ssh"
-	"code.cloudfoundry.org/cli/cf/ssh/options"
+	sshCmd "github.com/LukasHeimann/cloudfoundrycli/v8/cf/ssh"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/cf/ssh/options"
 )
 
 type FakeSecureShell struct {

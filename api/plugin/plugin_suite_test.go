@@ -4,7 +4,7 @@ import (
 	"bytes"
 	"log"
 
-	. "code.cloudfoundry.org/cli/api/plugin"
+	. "github.com/LukasHeimann/cloudfoundrycli/v8/api/plugin"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 	. "github.com/onsi/gomega/ghttp"

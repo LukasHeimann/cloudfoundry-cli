@@ -7,9 +7,9 @@ import (
 	"net/url"
 	"os"
 
-	. "code.cloudfoundry.org/cli/api/plugin"
-	"code.cloudfoundry.org/cli/api/plugin/pluginerror"
-	"code.cloudfoundry.org/cli/api/plugin/pluginfakes"
+	. "github.com/LukasHeimann/cloudfoundrycli/v8/api/plugin"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/api/plugin/pluginerror"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/api/plugin/pluginfakes"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 	. "github.com/onsi/gomega/ghttp"

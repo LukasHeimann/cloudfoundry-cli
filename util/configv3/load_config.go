@@ -7,7 +7,7 @@ import (
 	"os"
 	"path/filepath"
 
-	"code.cloudfoundry.org/cli/command/translatableerror"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/command/translatableerror"
 	"golang.org/x/crypto/ssh/terminal"
 )
 

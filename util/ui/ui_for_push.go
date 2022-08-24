@@ -7,7 +7,7 @@ import (
 	"sort"
 	"strings"
 
-	"code.cloudfoundry.org/cli/types"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/types"
 
 	"github.com/fatih/color"
 )

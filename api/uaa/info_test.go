@@ -1,7 +1,7 @@
 package uaa_test
 
 import (
-	. "code.cloudfoundry.org/cli/api/uaa"
+	. "github.com/LukasHeimann/cloudfoundrycli/v8/api/uaa"
 
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"

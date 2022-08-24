@@ -1,7 +1,7 @@
 package extract_test
 
 import (
-	"code.cloudfoundry.org/cli/util/extract"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/util/extract"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 )

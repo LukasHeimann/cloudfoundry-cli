@@ -11,8 +11,8 @@ import (
 	"net/url"
 	"time"
 
-	"code.cloudfoundry.org/cli/api/plugin/pluginerror"
-	"code.cloudfoundry.org/cli/util"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/api/plugin/pluginerror"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/util"
 )
 
 // PluginConnection represents a connection to a plugin repo.

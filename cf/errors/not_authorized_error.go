@@ -1,7 +1,7 @@
 package errors
 
 import (
-	. "code.cloudfoundry.org/cli/cf/i18n"
+	. "github.com/LukasHeimann/cloudfoundrycli/v8/cf/i18n"
 )
 
 type NotAuthorizedError struct {

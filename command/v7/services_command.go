@@ -3,11 +3,11 @@ package v7
 import (
 	"strings"
 
-	"code.cloudfoundry.org/cli/resources"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/resources"
 
-	"code.cloudfoundry.org/cli/actor/v7action"
-	"code.cloudfoundry.org/cli/types"
-	"code.cloudfoundry.org/cli/util/ui"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/actor/v7action"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/types"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/util/ui"
 )
 
 type ServicesCommand struct {

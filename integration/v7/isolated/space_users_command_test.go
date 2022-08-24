@@ -8,8 +8,8 @@ import (
 	. "github.com/onsi/gomega/gbytes"
 	. "github.com/onsi/gomega/gexec"
 
-	"code.cloudfoundry.org/cli/api/cloudcontroller/ccversion"
-	"code.cloudfoundry.org/cli/integration/helpers"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/api/cloudcontroller/ccversion"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/integration/helpers"
 )
 
 var _ = Describe("space-users command", func() {

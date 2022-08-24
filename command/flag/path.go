@@ -8,8 +8,8 @@ import (
 	"path/filepath"
 	"strings"
 
-	"code.cloudfoundry.org/cli/types"
-	"code.cloudfoundry.org/cli/util/manifestparser"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/types"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/util/manifestparser"
 	"github.com/jessevdk/go-flags"
 )
 

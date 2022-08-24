@@ -5,8 +5,8 @@ import (
 	"net/http"
 	"strings"
 
-	. "code.cloudfoundry.org/cli/cf/net"
-	"code.cloudfoundry.org/cli/cf/trace"
+	. "github.com/LukasHeimann/cloudfoundrycli/v8/cf/net"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/cf/trace"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 )

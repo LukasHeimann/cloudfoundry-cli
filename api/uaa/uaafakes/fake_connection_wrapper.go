@@ -5,7 +5,7 @@ import (
 	"net/http"
 	"sync"
 
-	"code.cloudfoundry.org/cli/api/uaa"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/api/uaa"
 )
 
 type FakeConnectionWrapper struct {

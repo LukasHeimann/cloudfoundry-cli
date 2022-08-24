@@ -5,7 +5,7 @@ import (
 	"os"
 	"strconv"
 
-	"code.cloudfoundry.org/cli/api/cloudcontroller"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/api/cloudcontroller"
 )
 
 // V2FormattedResource represents a Cloud Controller Resource that still has the same shape as the V2 Resource.

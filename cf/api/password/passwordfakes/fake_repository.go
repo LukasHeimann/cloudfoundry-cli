@@ -4,7 +4,7 @@ package passwordfakes
 import (
 	"sync"
 
-	"code.cloudfoundry.org/cli/cf/api/password"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/cf/api/password"
 )
 
 type FakeRepository struct {

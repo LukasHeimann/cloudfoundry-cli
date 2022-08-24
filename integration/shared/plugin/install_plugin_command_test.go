@@ -9,8 +9,8 @@ import (
 	"os"
 	"path/filepath"
 
-	"code.cloudfoundry.org/cli/integration/helpers"
-	"code.cloudfoundry.org/cli/util/generic"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/integration/helpers"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/util/generic"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 	. "github.com/onsi/gomega/gbytes"
@@ -254,7 +254,7 @@ var _ = Describe("install-plugin command", func() {
 				When("the file is not a plugin", func() {
 					BeforeEach(func() {
 						var err error
-						pluginPath, err = Build("code.cloudfoundry.org/cli/integration/assets/non_plugin")
+						pluginPath, err = Build("github.com/LukasHeimann/cloudfoundrycli/v8/integration/assets/non_plugin")
 						Expect(err).ToNot(HaveOccurred())
 					})
 
@@ -269,7 +269,7 @@ var _ = Describe("install-plugin command", func() {
 				When("getting metadata from the plugin errors", func() {
 					BeforeEach(func() {
 						var err error
-						pluginPath, err = Build("code.cloudfoundry.org/cli/integration/assets/test_plugin_fails_metadata")
+						pluginPath, err = Build("github.com/LukasHeimann/cloudfoundrycli/v8/integration/assets/test_plugin_fails_metadata")
 						Expect(err).ToNot(HaveOccurred())
 					})
 
@@ -768,7 +768,7 @@ var _ = Describe("install-plugin command", func() {
 			When("the file is not a plugin", func() {
 				BeforeEach(func() {
 					var err error
-					pluginPath, err = Build("code.cloudfoundry.org/cli/integration/assets/non_plugin")
+					pluginPath, err = Build("github.com/LukasHeimann/cloudfoundrycli/v8/integration/assets/non_plugin")
 					Expect(err).ToNot(HaveOccurred())
 
 					pluginData, err := ioutil.ReadFile(pluginPath)

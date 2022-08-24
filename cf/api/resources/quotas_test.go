@@ -1,9 +1,9 @@
 package resources_test
 
 import (
-	. "code.cloudfoundry.org/cli/cf/api/resources"
+	. "github.com/LukasHeimann/cloudfoundrycli/v8/cf/api/resources"
 
-	"code.cloudfoundry.org/cli/cf/models"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/cf/models"
 	"encoding/json"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"

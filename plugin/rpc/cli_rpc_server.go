@@ -4,13 +4,13 @@ import (
 	"os"
 	"strings"
 
-	"code.cloudfoundry.org/cli/cf/api"
-	"code.cloudfoundry.org/cli/cf/commandregistry"
-	"code.cloudfoundry.org/cli/cf/configuration/coreconfig"
-	"code.cloudfoundry.org/cli/cf/terminal"
-	"code.cloudfoundry.org/cli/plugin"
-	plugin_models "code.cloudfoundry.org/cli/plugin/models"
-	"code.cloudfoundry.org/cli/version"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/cf/api"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/cf/commandregistry"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/cf/configuration/coreconfig"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/cf/terminal"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/plugin"
+	plugin_models "github.com/LukasHeimann/cloudfoundrycli/v8/plugin/models"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/version"
 	"github.com/blang/semver"
 
 	"fmt"
@@ -23,7 +23,7 @@ import (
 
 	"sync"
 
-	"code.cloudfoundry.org/cli/cf/trace"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/cf/trace"
 )
 
 var dialTimeout = os.Getenv("CF_DIAL_TIMEOUT")

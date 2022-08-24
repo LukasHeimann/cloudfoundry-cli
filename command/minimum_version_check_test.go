@@ -1,9 +1,9 @@
 package command_test
 
 import (
-	. "code.cloudfoundry.org/cli/command"
-	"code.cloudfoundry.org/cli/command/translatableerror"
-	"code.cloudfoundry.org/cli/version"
+	. "github.com/LukasHeimann/cloudfoundrycli/v8/command"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/command/translatableerror"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/version"
 
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"

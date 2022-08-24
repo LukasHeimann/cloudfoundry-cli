@@ -7,13 +7,13 @@ import (
 	"fmt"
 	"os"
 
-	"code.cloudfoundry.org/cli/cf/cmd"
-	"code.cloudfoundry.org/cli/command/common"
-	"code.cloudfoundry.org/cli/util/command_parser"
-	"code.cloudfoundry.org/cli/util/configv3"
-	"code.cloudfoundry.org/cli/util/panichandler"
-	plugin_util "code.cloudfoundry.org/cli/util/plugin"
-	"code.cloudfoundry.org/cli/util/ui"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/cf/cmd"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/command/common"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/util/command_parser"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/util/configv3"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/util/panichandler"
+	plugin_util "github.com/LukasHeimann/cloudfoundrycli/v8/util/plugin"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/util/ui"
 )
 
 func main() {

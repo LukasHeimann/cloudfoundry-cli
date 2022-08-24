@@ -10,10 +10,10 @@ import (
 
 	logcache "code.cloudfoundry.org/go-log-cache"
 
-	"code.cloudfoundry.org/cli/actor/v7action"
-	"code.cloudfoundry.org/cli/api/shared"
-	"code.cloudfoundry.org/cli/command"
-	"code.cloudfoundry.org/cli/util"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/actor/v7action"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/api/shared"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/command"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/util"
 )
 
 type RequestLoggerOutput interface {

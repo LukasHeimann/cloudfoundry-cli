@@ -5,17 +5,17 @@ import (
 	"net/http"
 	"time"
 
-	"code.cloudfoundry.org/cli/cf/api/spacequotas"
-	"code.cloudfoundry.org/cli/cf/configuration/coreconfig"
-	"code.cloudfoundry.org/cli/cf/errors"
-	"code.cloudfoundry.org/cli/cf/models"
-	"code.cloudfoundry.org/cli/cf/net"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/cf/api/spacequotas"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/cf/configuration/coreconfig"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/cf/errors"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/cf/models"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/cf/net"
 	"github.com/onsi/gomega/ghttp"
 
-	"code.cloudfoundry.org/cli/cf/terminal/terminalfakes"
-	testconfig "code.cloudfoundry.org/cli/cf/util/testhelpers/configuration"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/cf/terminal/terminalfakes"
+	testconfig "github.com/LukasHeimann/cloudfoundrycli/v8/cf/util/testhelpers/configuration"
 
-	"code.cloudfoundry.org/cli/cf/trace/tracefakes"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/cf/trace/tracefakes"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 )

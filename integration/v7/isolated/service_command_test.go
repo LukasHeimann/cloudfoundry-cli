@@ -5,8 +5,8 @@ import (
 	"strings"
 	"time"
 
-	"code.cloudfoundry.org/cli/integration/helpers"
-	"code.cloudfoundry.org/cli/integration/helpers/servicebrokerstub"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/integration/helpers"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/integration/helpers/servicebrokerstub"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 	. "github.com/onsi/gomega/gbytes"

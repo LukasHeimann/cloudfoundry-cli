@@ -3,10 +3,10 @@ package requirements
 import (
 	"errors"
 
-	"code.cloudfoundry.org/cli/cf/configuration/coreconfig"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/cf/configuration/coreconfig"
 	"github.com/blang/semver"
 
-	. "code.cloudfoundry.org/cli/cf/i18n"
+	. "github.com/LukasHeimann/cloudfoundrycli/v8/cf/i18n"
 )
 
 type MaxAPIVersionRequirement struct {

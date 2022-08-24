@@ -1,11 +1,11 @@
 package shared
 
 import (
-	"code.cloudfoundry.org/cli/actor/actionerror"
-	"code.cloudfoundry.org/cli/actor/sharedaction"
-	"code.cloudfoundry.org/cli/actor/v7action"
-	"code.cloudfoundry.org/cli/command"
-	"code.cloudfoundry.org/cli/resources"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/actor/actionerror"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/actor/sharedaction"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/actor/v7action"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/command"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/resources"
 )
 
 func PollStage(dropletStream <-chan resources.Droplet, warningsStream <-chan v7action.Warnings, errStream <-chan error, logStream <-chan sharedaction.LogMessage, logErrStream <-chan error, ui command.UI) (resources.Droplet, error) {

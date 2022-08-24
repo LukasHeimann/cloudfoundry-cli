@@ -1,7 +1,7 @@
 package resources
 
 import (
-	"code.cloudfoundry.org/cli/api/cloudcontroller/ccv3/constant"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/api/cloudcontroller/ccv3/constant"
 )
 
 // Droplet represents a Cloud Controller droplet's metadata. A droplet is a set of

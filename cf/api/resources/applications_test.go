@@ -4,8 +4,8 @@ import (
 	"encoding/json"
 	"time"
 
-	"code.cloudfoundry.org/cli/cf/api/resources"
-	"code.cloudfoundry.org/cli/cf/models"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/cf/api/resources"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/cf/models"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 )

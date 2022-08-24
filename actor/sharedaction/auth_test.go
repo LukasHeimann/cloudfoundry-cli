@@ -3,8 +3,8 @@ package sharedaction_test
 import (
 	"errors"
 
-	. "code.cloudfoundry.org/cli/actor/sharedaction"
-	"code.cloudfoundry.org/cli/actor/sharedaction/sharedactionfakes"
+	. "github.com/LukasHeimann/cloudfoundrycli/v8/actor/sharedaction"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/actor/sharedaction/sharedactionfakes"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 )

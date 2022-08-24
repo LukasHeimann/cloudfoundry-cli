@@ -1,9 +1,9 @@
 package pluginrepo_test
 
 import (
-	"code.cloudfoundry.org/cli/cf/commands/pluginrepo"
-	"code.cloudfoundry.org/cli/cf/i18n"
-	"code.cloudfoundry.org/cli/cf/util/testhelpers/configuration"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/cf/commands/pluginrepo"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/cf/i18n"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/cf/util/testhelpers/configuration"
 
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"

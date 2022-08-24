@@ -1,8 +1,8 @@
 package v7action_test
 
 import (
-	. "code.cloudfoundry.org/cli/actor/v7action"
-	"code.cloudfoundry.org/cli/actor/v7action/v7actionfakes"
+	. "github.com/LukasHeimann/cloudfoundrycli/v8/actor/v7action"
+	"github.com/LukasHeimann/cloudfoundrycli/v8/actor/v7action/v7actionfakes"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 )

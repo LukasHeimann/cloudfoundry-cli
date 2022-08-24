@@ -1,6 +1,6 @@
 package ccv3
 
-import "code.cloudfoundry.org/cli/resources"
+import "github.com/LukasHeimann/cloudfoundrycli/v8/resources"
 
 type IncludedResources struct {
 	Users            []resources.User            `json:"users,omitempty"`
